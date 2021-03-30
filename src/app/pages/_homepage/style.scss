@@ -1,0 +1,36 @@
+@import '../../../const.scss';
+
+.home {
+    .card-custom {
+        padding: 0;
+        // border-radius: 0.42rem;
+    }
+
+    .card.card-custom {
+        .card-body {
+            padding: 0;
+        }
+    }
+
+    .top-header {
+        padding: 20px 0;
+        background-color: $primary-color;
+    }
+
+    img {
+        background-size: contain;
+    }
+
+    &__content {
+        &__image {
+            img {
+                max-width: 100%;
+                max-height: 100&;
+            }  
+        }
+
+        .c-boder {
+            border-bottom: 2px solid $primary-color;
+        }
+    }
+}

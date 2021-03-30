@@ -1,0 +1,12 @@
+.layout {
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    min-height: calc(100vh - 275px);
+    max-height: calc(100vh - 275px);
+    overflow-y: scroll;
+}
+
+.layout div table {
+    // min-height: 277px;
+}

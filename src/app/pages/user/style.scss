@@ -1,0 +1,20 @@
+.user-body {
+    .card-header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .card-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .card {
+        &.card-custom {
+            & > .card-body {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,228 @@
+// [class^="col-pc-"] {
+//     margin-right: 2.05rem;
+// }
+
+@media all and (min-width: 1200px) {
+  .col-pc-24 {
+    flex: 0 0 calc(100% / 24 * 24);
+  }
+  .col-pc-23 {
+    flex: 0 0 calc(100% / 24 * 23);
+  }
+  .col-pc-22 {
+    flex: 0 0 calc(100% / 24 * 22);
+  }
+  .col-pc-21 {
+    flex: 0 0 calc(100% / 24 * 21);
+  }
+  .col-pc-20 {
+    flex: 0 0 calc(100% / 24 * 20);
+  }
+  .col-pc-19 {
+    flex: 0 0 calc(100% / 24 * 19);
+  }
+  .col-pc-18 {
+    flex: 0 0 calc(100% / 24 * 18);
+  }
+  .col-pc-17 {
+    flex: 0 0 calc(100% / 24 * 17);
+  }
+  .col-pc-16 {
+    flex: 0 0 calc(100% / 24 * 16);
+  }
+  .col-pc-15 {
+    flex: 0 0 calc(100% / 24 * 15);
+  }
+  .col-pc-14 {
+    flex: 0 0 calc(100% / 24 * 14);
+  }
+  .col-pc-13 {
+    flex: 0 0 calc(100% / 24 * 13);
+  }
+  .col-pc-12 {
+    flex: 0 0 calc(100% / 24 * 12);
+  }
+  .col-pc-11 {
+    flex: 0 0 calc(100% / 24 * 11);
+  }
+  .col-pc-10 {
+    flex: 0 0 calc(100% / 24 * 10);
+  }
+  .col-pc-9 {
+    flex: 0 0 calc(100% / 24 * 9);
+  }
+  .col-pc-8 {
+    flex: 0 0 calc(100% / 24 * 8);
+  }
+  .col-pc-7 {
+    flex: 0 0 calc(100% / 24 * 7);
+  }
+  .col-pc-6 {
+    flex: 0 0 calc(100% / 24 * 6);
+  }
+  .col-pc-5 {
+    flex: 0 0 calc(100% / 24 * 5);
+  }
+  .col-pc-4 {
+    flex: 0 0 calc(100% / 24 * 4);
+  }
+  .col-pc-3 {
+    flex: 0 0 calc(100% / 24 * 3);
+  }
+  .col-pc-2 {
+    flex: 0 0 calc(100% / 24 * 2);
+  }
+  .col-pc-1 {
+    flex: 0 0 calc(100% / 24 * 1);
+  }
+}
+
+@media all and (min-width: 992px) {
+  .col-tablet-24 {
+    flex: 0 0 calc(100% / 24 * 24);
+  }
+  .col-tablet-23 {
+    flex: 0 0 calc(100% / 24 * 23);
+  }
+  .col-tablet-22 {
+    flex: 0 0 calc(100% / 24 * 22);
+  }
+  .col-tablet-21 {
+    flex: 0 0 calc(100% / 24 * 21);
+  }
+  .col-tablet-20 {
+    flex: 0 0 calc(100% / 24 * 20);
+  }
+  .col-tablet-19 {
+    flex: 0 0 calc(100% / 24 * 19);
+  }
+  .col-tablet-18 {
+    flex: 0 0 calc(100% / 24 * 18);
+  }
+  .col-tablet-17 {
+    flex: 0 0 calc(100% / 24 * 17);
+  }
+  .col-tablet-16 {
+    flex: 0 0 calc(100% / 24 * 16);
+  }
+  .col-tablet-15 {
+    flex: 0 0 calc(100% / 24 * 15);
+  }
+  .col-tablet-14 {
+    flex: 0 0 calc(100% / 24 * 14);
+  }
+  .col-tablet-13 {
+    flex: 0 0 calc(100% / 24 * 13);
+  }
+  .col-tablet-12 {
+    flex: 0 0 calc(100% / 24 * 12);
+  }
+  .col-tablet-11 {
+    flex: 0 0 calc(100% / 24 * 11);
+  }
+  .col-tablet-10 {
+    flex: 0 0 calc(100% / 24 * 10);
+  }
+  .col-tablet-9 {
+    flex: 0 0 calc(100% / 24 * 9);
+  }
+  .col-tablet-8 {
+    flex: 0 0 calc(100% / 24 * 8);
+  }
+  .col-tablet-7 {
+    flex: 0 0 calc(100% / 24 * 7);
+  }
+  .col-tablet-6 {
+    flex: 0 0 calc(100% / 24 * 6);
+  }
+  .col-tablet-5 {
+    flex: 0 0 calc(100% / 24 * 5);
+  }
+  .col-tablet-4 {
+    flex: 0 0 calc(100% / 24 * 4);
+  }
+  .col-tablet-3 {
+    flex: 0 0 calc(100% / 24 * 3);
+  }
+  .col-tablet-2 {
+    flex: 0 0 calc(100% / 24 * 2);
+  }
+  .col-tablet-1 {
+    flex: 0 0 calc(100% / 24 * 1);
+  }
+}
+
+@media all and (min-width: 768px) {
+  .col-mobile-24 {
+    flex: 0 0 calc(100% / 24 * 24);
+  }
+  .col-mobile-23 {
+    flex: 0 0 calc(100% / 24 * 23);
+  }
+  .col-mobile-22 {
+    flex: 0 0 calc(100% / 24 * 22);
+  }
+  .col-mobile-21 {
+    flex: 0 0 calc(100% / 24 * 21);
+  }
+  .col-mobile-20 {
+    flex: 0 0 calc(100% / 24 * 20);
+  }
+  .col-mobile-19 {
+    flex: 0 0 calc(100% / 24 * 19);
+  }
+  .col-mobile-18 {
+    flex: 0 0 calc(100% / 24 * 18);
+  }
+  .col-mobile-17 {
+    flex: 0 0 calc(100% / 24 * 17);
+  }
+  .col-mobile-16 {
+    flex: 0 0 calc(100% / 24 * 16);
+  }
+  .col-mobile-15 {
+    flex: 0 0 calc(100% / 24 * 15);
+  }
+  .col-mobile-14 {
+    flex: 0 0 calc(100% / 24 * 14);
+  }
+  .col-mobile-13 {
+    flex: 0 0 calc(100% / 24 * 13);
+  }
+  .col-mobile-12 {
+    flex: 0 0 calc(100% / 24 * 12);
+  }
+  .col-mobile-11 {
+    flex: 0 0 calc(100% / 24 * 11);
+  }
+  .col-mobile-10 {
+    flex: 0 0 calc(100% / 24 * 10);
+  }
+  .col-mobile-9 {
+    flex: 0 0 calc(100% / 24 * 9);
+  }
+  .col-mobile-8 {
+    flex: 0 0 calc(100% / 24 * 8);
+  }
+  .col-mobile-7 {
+    flex: 0 0 calc(100% / 24 * 7);
+  }
+  .col-mobile-6 {
+    flex: 0 0 calc(100% / 24 * 6);
+  }
+  .col-mobile-5 {
+    flex: 0 0 calc(100% / 24 * 5);
+  }
+  .col-mobile-4 {
+    flex: 0 0 calc(100% / 24 * 4);
+  }
+  .col-mobile-3 {
+    flex: 0 0 calc(100% / 24 * 3);
+  }
+  .col-mobile-2 {
+    flex: 0 0 calc(100% / 24 * 2);
+  }
+  .col-mobile-1 {
+    flex: 0 0 calc(100% / 24 * 1);
+  }
+}

@@ -1,0 +1,117 @@
+/* .aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-active > .menu-link,
+.aside-menu .menu-nav > .menu-item > .menu-submenu .menu-subnav > .menu-item > .menu-link {
+  padding-left: 50px !important;
+} */
+@import "../../../../const.scss";
+
+.menu-item.menu-item-active.menu-item-open svg {
+  fill: white !important;
+}
+
+.menu-item.menu-item-active.menu-item-open a span svg path {
+  fill: white !important;
+}
+
+.menu-text.title {
+  font-size: $defaut-font-size !important;
+  font-weight: bold !important;
+}
+
+.menu-icon svg {
+  fill: currentColor
+}
+
+.menu-link:hover svg path {
+  fill: white;
+}
+
+/* .menu-subnav a.menu-link.active svg {
+  fill: white !important
+} */
+
+.menu-item {
+  margin: 5px 11px !important;
+}
+
+.menu-item-submenu {
+  margin: 5px 11px !important;
+}
+
+
+.menu-item a.menu-link {
+  border-radius: 11px !important;
+}
+
+.menu-subnav .menu-item {
+  margin: 5px 0px !important;
+
+}
+
+/* submenu background gray color */
+.menu-item.menu-item-submenu.false.menu-item-open a.menu-link.menu-toggle {
+  background-color: rgba(39,174,96,.25) !important;
+}
+
+/* submenu icon green color */
+.menu-item.menu-item-submenu.false.menu-item-open a.menu-link.menu-toggle span.svg-icon.menu-icon svg path {
+  fill: $primary-color !important;
+}
+
+/* submenu text green color */
+.menu-item.menu-item-submenu.false.menu-item-open a.menu-link.menu-toggle span.menu-text {
+  color: $primary-color !important;
+}
+
+.menu-item-open a.menu-toggle {
+  background-color: white !important;
+  color: $primary-color !important
+}
+
+.menu-item-open a.menu-toggle:hover {
+  background-color: $primary-color !important;
+}
+
+.menu-item-open a.menu-toggle:hover span {
+  color: white !important
+}
+
+.menu-item-open a.menu-toggle span {
+  color: $primary-color !important
+}
+
+.menu-text {
+  font-size: $defaut-font-size !important;
+}
+
+.menu-link:hover .aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-open > .menu-link .menu-arrow {
+  color: white !important;
+}
+
+.menu-item.menu-item-open > .menu-link .menu-arrow {
+  color: $primary-color !important;
+}
+
+.menu-item-open a.menu-toggle:hover .menu-arrow {
+  color: white !important
+}
+
+
+.menu-text-icon {
+  display: none;
+  position: absolute;
+  top: 12px;
+  font-weight: bold;
+  left: 22px;
+
+}
+
+.aside-minimize{
+  .menu-text-icon {
+    display: block;
+  }
+  .menu-item-active{
+    .menu-text-icon {
+      color: white;
+    }
+  }
+}
