@@ -44,11 +44,11 @@ export function Header() {
                     {
                         <span className="text-primary text-uppercase
                         font-weight-bold font-size-lg ml-auto mr-auto d-inline-flex align-items-center">
-                            {activeAcademicYear ? (<span>No Academic Year is active right now!</span>) :
+                            {activeAcademicYear ? 
                               (<><span><FormattedMessage id={'ACADEMIC_YEAR.HEADER.START_DATE'}/> : <FormattedDate
                                   value={activeAcademicYear?.startDate}/>&nbsp;</span>
                                 <span>-&nbsp;<FormattedMessage id={'ACADEMIC_YEAR.HEADER.FINAL_CLOSURE_DATE'}/> : {
-                                    <FormattedDate value={activeAcademicYear?.finalClosureDate}/>}</span></>)
+                                    <FormattedDate value={activeAcademicYear?.finalClosureDate}/>}</span></>) : (<span>No Academic Year is active right now!</span>)
                             }
                         </span>
 
