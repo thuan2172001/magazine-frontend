@@ -1,0 +1,30 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- dev
+
+pool:
+  name: 'Default'
+
+steps:
+
+- task: MGSonarQubePrepare@5
+  inputs:
+    SonarQube: 'Sona'
+    scannerMode: 'CLI'
+    configMode: 'manual'
+    cliProjectKey: 'VnCheckClient'
+    cliSources: '.'
+    extraProperties: |
+      # Additional properties that will be passed to the scanner, 
+      # Put one key=value per line, example:
+      # sonar.exclusions=**/*.bin
+      sonar.nodejs.executable=C:\Program Files\nodejs\node.exe
+
+- task: MGSonarQubeAnalyze@5
+- task: MGSonarQubePublish@5
+  inputs:
+    pollingTimeoutSec: '300'

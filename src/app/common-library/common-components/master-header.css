@@ -1,0 +1,11 @@
+.react-datepicker-wrapper {
+  /* display: block; */
+}
+
+button.btn-outline-primary:hover svg path {
+  fill: white !important;
+}
+
+button.btn-outline-primary:focus svg path {
+  fill: white !important;
+}

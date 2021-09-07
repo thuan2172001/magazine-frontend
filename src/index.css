@@ -1,0 +1,19 @@
+/* Error: Can't find stylesheet to import.
+ *    ,
+ * 14 | @import "~bootstrap/scss/mixins";
+ *    |         ^^^^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   app\layout\sass\_init.scss 14:9        @import
+ *   app\layout\sass\style.react.scss 10:9  @import
+ *   index.scss 6:9                         root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a    \2577 \a 14 \2502  @import \"~bootstrap/scss/mixins\";\d\a    \2502          ^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   app\\layout\\sass\\_init.scss 14:9        @import\a   app\\layout\\sass\\style.react.scss 10:9  @import\a   index.scss 6:9                         root stylesheet";
+}

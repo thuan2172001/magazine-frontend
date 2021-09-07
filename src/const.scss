@@ -1,0 +1,5 @@
+$defaut-font-size: 12px !default; // Assumes the browser default, typically `12px`
+$large-font-size: 18px !default;
+$font-size-sm: $defaut-font-size * .925 !default; // 12.025px
+$font-size-xs: $defaut-font-size * .8 !default; // 10.4px
+$primary-color: #27AE60
